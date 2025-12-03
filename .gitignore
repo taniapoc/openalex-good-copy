@@ -1,0 +1,28 @@
+# node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+
+# compiled/built output
+dist/
+build/
+
+# env / secrets
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+
+# data files
+data_pulls/
+notes/
+*.csv
+*.xlsx
+*.pdf
