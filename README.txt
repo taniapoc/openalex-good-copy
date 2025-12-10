@@ -32,15 +32,3 @@ openalex dashboards
 |         |____ please DO NOT touch this script if you are making changes to the dashboards. The changes will not be saved, as this file gets overwritten every time
 |               dashboard_exec.py gets called. Please make sure to make any changes to the dashboard in render_open_alex_dashboard.ipynb ONLY. thank you!! 
 
-no.
-To display the dashboard correctly with the most recent data, run the jupyternotebooks in this folder in the following order: 
-    1. data pulls > institution overview info.ipynb
-            this gets all of the institution-level bibliometrics, publications, and authorship data at a high level
-    2. data pulls > pull all sfu works.ipynb 
-            this notebook uses the OpenAlex API to download the full set of SFU-affiliated works and publications   
-    3. data pulls > topics and subject areas.ipynb
-            this notebook identifies and groups the research topics and subject areas of SFU publications
-    4. openalex dashboard.ipynb 
-            this notebook renders the dashboards
-
-THIS IS ALL SUPER OLD I NEED TO UPDATE A LOT A LOT >:(
