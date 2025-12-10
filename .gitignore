@@ -22,7 +22,9 @@ build/
 
 # data files
 data_pulls/
+!data_pulls/README.txt
 notes/
+!notes/README.txt
 *.csv
 *.xlsx
 *.pdf
